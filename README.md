@@ -14,7 +14,7 @@ Optional: ```-q <output_ogg_quality>``` (Default: 0.7)
 - **time** in miliseconds (float)
 - **volume** factor from 0.0 to 1.0 (float)
 - **pan** factor from -1.0 to 1.0, with 0.0 as center sound (float)
-- **file** path to the respective sample file
+- **file** path to the respective sample file (put this in double quotes)
 <br>
 
 Uses [Symphonia](https://github.com/pdeljanov/Symphonia) for audio decoding.
