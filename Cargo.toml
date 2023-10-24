@@ -9,6 +9,6 @@ edition = "2021"
 hound = "3.2"
 num = "0.4"
 csv = "1.1.6"
-symphonia = "0.5.3"
+symphonia = { version = "0.5.3", features = ["all"] }
 vorbis-encoder = "0.1.4"
 samplerate = "0.2.4"
